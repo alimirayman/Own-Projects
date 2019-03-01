@@ -1,4 +1,4 @@
-#Project in details#
+# Project in details
 
 From the beginning of this project my motive was to use calculator more naturally in our personal computer. To make this phenomena possible I thought that there was nothing more natural to us then our language which is “string” in terms of a computer. So, I wanted to take strings from user and decode the string somehow to make the computer calculate the equation. For that I implemented POST-FIX method. But first I had to decode the string from user. Bellow is the graphical view of the process I did.
 
@@ -35,8 +35,8 @@ From the beginning of this project my motive was to use calculator more naturall
 	b. if minus is in front of the equation making the first digit negative.
 	c. if minus operator is in front of the  operators that handles negative value makes the next value negative.
 	
-	USER | Method Returns | Splitting
-  -------|--------------|-----------
+  USER   | Method Returns | Splitting
+  -------|----------------|-----------
   "-12^-5-70" | "-12 ^ -5 + -70" |\| -12 \| ^ \| -5 \| + \| -70 \|
   
   This makes all the errors clear for POST-FIX.
